@@ -1,6 +1,7 @@
 [//]: # (Image References)
 
-[image1]: https://github.com/lonewolf9171/Udacity-Deep-RL-Project-1-Navigation/blob/main/images/banana-picker.gif "Trained Agent"
+[image1]: https://github.com/lonewolf9171/udacity-drlnd-p1-navigation/blob/main/images/banana-picker.gif "Trained Agent"
+[image2]: https://github.com/lonewolf9171/udacity-drlnd-p1-navigation/blob/main/images/Scores%20Plot.png "Scores"
 
 # Udacity Deep RL Project 1: Navigation with Deep Q Network (DQN)
 
@@ -57,4 +58,4 @@ Then, place the file in the `p1_navigation/` folder in the DRLND GitHub reposito
 After installing all the pre-requisites including Unity Agents, try running the `Navigation.ipynb`. You're good to go! 
 
 In the notebook I was able to solve the environment in **529 Episodes** with an average score of **13**
-![Scores](https://github.com/lonewolf9171/Udacity-Deep-RL-Project-1-Navigation/blob/main/Scores%20Plot.png)
+![Scores][image2]
