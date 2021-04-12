@@ -2,6 +2,7 @@
 
 [image1]: https://github.com/lonewolf9171/udacity-drlnd-p1-navigation/blob/main/images/banana-picker.gif "Trained Agent"
 [image2]: https://github.com/lonewolf9171/udacity-drlnd-p1-navigation/blob/main/images/Scores%20Plot.png "Scores"
+[image3]: https://user-images.githubusercontent.com/10624937/42386929-76f671f0-8106-11e8-9376-f17da2ae852e.png "Kernel"
 
 # Udacity Deep RL Project 1: Navigation with Deep Q Network (DQN)
 
@@ -57,5 +58,43 @@ Then, place the file in the `p1_navigation/` folder in the DRLND GitHub reposito
 
 After installing all the pre-requisites including Unity Agents, try running the `Navigation.ipynb`. You're good to go! 
 
+### Dependencies
+
+To set up your python environment to run the code in this repository, follow the instructions below.
+
+1. Create (and activate) a new environment with Python 3.6.
+
+	- __Linux__ or __Mac__: 
+	```bash
+	conda create --name drlnd python=3.6
+	source activate drlnd
+	```
+	- __Windows__: 
+	```bash
+	conda create --name drlnd python=3.6 
+	activate drlnd
+	```
+	
+2. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.  
+	- Next, install the **classic control** environment group by following the instructions [here](https://github.com/openai/gym#classic-control).
+	- Then, install the **box2d** environment group by following the instructions [here](https://github.com/openai/gym#box2d).
+	
+3. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
+```bash
+git clone https://github.com/udacity/deep-reinforcement-learning.git
+cd deep-reinforcement-learning/python
+pip install .
+```
+
+4. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
+```bash
+python -m ipykernel install --user --name drlnd --display-name "drlnd"
+```
+
+5. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
+
+![Kernel][image2]
+
+### Scores per Episode
 In the notebook I was able to solve the environment in **529 Episodes** with an average score of **13**
 ![Scores][image2]
