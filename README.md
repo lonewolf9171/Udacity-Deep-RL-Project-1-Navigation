@@ -93,7 +93,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 5. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
 
-![Kernel][image2]
+![Kernel][image3]
 
 ### Scores per Episode
 In the notebook I was able to solve the environment in **529 Episodes** with an average score of **13**
